@@ -1,0 +1,119 @@
+@use 'variables' as var;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bi-btn{
+    color: var.$color-primary;
+}
+
+.icon-text{
+    text-decoration: none !important;
+    color:linear-gradient(to right, #FB3C00,#FFB800) !important;
+    
+}
+.icon{
+    width: var.$font-size;
+    height: 4rem ;
+}
+ .search-nav{
+    border: none !important;
+}
+
+.hero-img{
+    padding-top: 50px;
+    padding-right: 450px;
+    display: flex;
+    justify-content: center;
+    width: 545px;
+    height: 545px;
+    top:-0.19px;
+    left: 50px;
+}
+h1{
+    font-size: 4rem;
+    color:var.$color-text;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left:50px;
+}
+.hero-muted{
+    font-size: 2rem;
+    margin-left: 50px;
+}
+.nav-tabs{
+    text-decoration-color: var.$color-secondary !important;
+    background: var.$color-box !important;
+    padding-bottom: 20px;
+    margin-bottom:20px ;
+}
+
+.nav-link{
+    border: 0;
+}
+.btn-second{
+    color: var.$color-text;
+    background: var.$color-secondary;
+}
+
+.bi-bag-fill{
+    color: var.$color-bag;
+}
+
+.discount-badge{
+    position: absolute;
+    bottom: -76px;
+    left: 0;
+    color: white;
+    z-index: 1;
+    background-color: var.$color-primary !important;
+    border-bottom-left-radius: var.$border-radius;
+    border-top-right-radius:var.$border-radius ;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+   
+}
+.card-text{
+    display: inline-block;
+    background-color: var.$color-accent;
+    color:var.$color-secondary;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: var.$border;
+    -webkit-border-radius: var.$border;
+    -moz-border-radius: var.$border;
+    -ms-border-radius: var.$border;
+    -o-border-radius: var.$border;
+}
+.card-popular, .card-featured{
+    border-color: white;
+    
+}
+
+.work{
+    background: linear-gradient(-8deg, #FFCE67, #FDEDCA) !important;
+    
+
+}
+.work-text{
+    color: var.$color-secondary !important;
+}
+
+
+.indirim-img {
+    position: absolute; /* Küçük resmi konumlandırmak için absolute kullanıyoruz */
+    top: -10px; /* Üstten uzaklık */
+    left: -10px; /* Soldan uzaklık */
+    bottom: -76px;
+    z-index: 1; /* Büyük resmin üstünde görünmesi için z-index ayarı */
+}
+  
+ .card-open{
+    display: inline-block;
+    background-color: var.$color-accent;
+    color:var.$color-secondary;
+ }
+

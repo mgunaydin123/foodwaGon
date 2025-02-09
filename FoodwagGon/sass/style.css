@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", serif;
+}
+
+
+.location-text{
+  display: flex;
+  justify-content: center;
+  padding-top: 11px;
+  margin: 0;
+  opacity: 75%;
+  
+}
+
+
+.bi {
+  color: #FFB30E;
+}
+
+.icon-text {
+  text-decoration: none !important;
+  color: linear-gradient(to right, #FB3C00, #FFB800) !important;
+}
+
+.icon {
+  width: 1, 5rem;
+  height: 4rem;
+}
+
+.search-nav {
+  border: none !important;
+}
+
+/* HERO SECTİON  */
+.hero-section {
+  background-color: #ffb30e;
+  overflow: hidden;
+  padding-block: 10px;
+  padding-bottom: 50px;
+}
+
+.banner-img {
+  transform: translateY(110px);
+  transition: 0.5s;
+  -webkit-transform: translateY(110px);
+  -moz-transform: translateY(110px);
+  -ms-transform: translateY(110px);
+  -o-transform: translateY(110px);
+}
+
+.banner-img:hover {
+  transform: translateY(50px);
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  -o-transform: translateY(50px);
+}
+
+.hero-section h1 {
+  font-size: 4.25rem;
+  font-weight: 800;
+  color: white;
+}
+
+.hero-section p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #616161;
+}
+
+.hero-section .nav-tabs .nav-link {
+  color: #616161;
+  border: 0;
+}
+
+.hero-section .nav-tabs {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-form-box {
+  padding-inline: 20px;
+  display: flex;
+  flex: 1;
+  border-radius: 4px;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.hero-form-box input {
+  background: transparent !important;
+  border: 0 !important;
+}
+
+.hero-form-box i {
+  color: #212121;
+}
+
+.hero-section .tab-pane.active {
+  display: flex;
+  gap: 15px;
+}
+
+.tabs-form {
+  border-radius: 8px;
+  padding: 17px 17px 57px;
+}
+
+.hero-section .nav-tabs .nav-link.active {
+  background-color: rgba(241, 114, 40, 15%);
+  border-color: rgba(241, 114, 40, 15%);
+  color: #f17228;
+}
+
+.btn-orangee {
+  background-color: #f17228;
+  color: white !important;
+  border-color: #f17228;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 3px !important;
+}
+
+.btn-orangee:hover {
+  background-color: #f3620e !important;
+}
+.new-button:hover{
+  background-color: #f3620e !important;
+ 
+}
+
+
+.hero-muted {
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.location span{
+  background-color: rgba(255, 60, 0, 0);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bi-bag-fill {
+  color: #757575;
+}
+
+.card-box {
+  width: 270px;
+  height: 110px;
+  gap: 10px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  z-index: 0;
+  border-radius: 0 630rem;
+  -webkit-border-radius: 0 630em;
+  -moz-border-radius: 0 630em;
+  -ms-border-radius: 0 630em;
+  -o-border-radius: 0 630em;
+}
+
+.discount-badge {
+  position: absolute;
+  bottom: -119px;
+  left: 0;
+  color: white;
+  z-index: 1;
+  background-color: #FFB30E !important;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.card-text {
+  display: inline-block;
+  background-color: #FDEADF;
+  color: #F17228;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0, 625em;
+  -webkit-border-radius: 0, 625em;
+  -moz-border-radius: 0, 625em;
+  -ms-border-radius: 0, 625em;
+  -o-border-radius: 0, 625em;
+}
+
+.work {
+  background: linear-gradient(-8deg, #FFCE67, #FDEDCA);
+  padding-block: 4rem;
+}
+
+.work-text {
+  color: #F17228 !important;
+}/*# sourceMappingURL=style.css.map */
+
+.card-open{
+  display: inline-block;
+ background-color: #EBF5E2;
+ color: #79B93C;
+ border-radius: 5px;
+}
+
+.carousel-controls {
+  position: relative; 
+  width: 100%; 
+  height: 100%;
+ 
+}
+
+.carousel-control-prev{
+  width: 40px; 
+  height: 40px; 
+  margin-top: 120px;
+  margin-left: 30px;
+  background-color:#ffb30e !important;
+  
+}
+
+.carousel-control-next {
+  width: 40px; 
+  height: 40px; 
+  margin-top: 120px !important;
+  margin-right: 80px !important;
+  background-color: #FFB30E;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 20px; 
+  height: 20px; 
+
+}
+.card-featured{
+ position: relative;
+}
+
+.indirim-img{
+  position: absolute;
+  bottom: 300px;
+  left: 10px;
+  color: white;
+  z-index: 1;
+}
+.indirim-fast{
+  position: absolute;
+  bottom: 300px;
+  left: 80px;
+  color: white;
+  z-index: 1;
+}
+.para{
+  margin: 10px;
+ padding-left: 0;
+}
+
+
+
+.view-all-container {
+  margin-top: 20px !important;
+  text-align:right;
+  padding-right: 20px !important;
+  justify-content: flex-end;
+ 
+}
+.view-all {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  color: grey;
+  display: inline-block;
+  margin-top: 90px !important;
+}
+.view-all:hover {
+  background-color: #ff9800;
+  color: #fff;
+}
+.food-item {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.food-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+.food-item img:hover {
+  transform: scale(1.1);
+}
+.row.text-center {
+  padding: 0 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h1 {
+  margin-bottom: 50px;
+}
+.text-gradient {
+  background: linear-gradient(50deg, #fb3c00, #ffb800); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+}
+.card-5 {
+  margin-top: 30px !important;
+}
+.hr-vertical {
+  border-right: 2px solid #d1d1d1; /* Gri renkli dikey çizgi */
+  padding-right: 15px; /* Çizginin yanındaki boşluk */
+  height: 100%; /* Yüksekliği kapsayıcıya göre ayarla */
+}
+
+.col-md-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.text-primary {
+  color: #ffad00 !important;
+}
+
+h1, p {
+  margin-bottom: 0;
+  text-align: center; 
+  margin-top: -10px;
+}
+
+.btn {
+  background-color: #ff9800 !important;
+  color: white;
+}
+.btn:hover {
+  color: grey;
+}
+.card{
+  border: none;
+}
+.orange-btn {
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: #ff9800;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+.subscribe:hover{
+  color: #616161 !important;
+}
+
+
+
+
